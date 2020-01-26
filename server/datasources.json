@@ -1,1 +1,12 @@
-{}
+{
+  "mongodb": {
+    "host": "ds213529.mlab.com",
+    "port": 13529,
+    "url": "mongodb://heroku_jf055g08:ad0617rqkl6jacj21fefalcdab@ds213529.mlab.com:13529/heroku_jf055g08",
+    "database": "heroku_jf055g08",
+    "password": "ad0617rqkl6jacj21fefalcdab",
+    "name": "mongodb",
+    "user": "heroku_jf055g08",
+    "connector": "mongodb"
+  }
+}

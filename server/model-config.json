@@ -12,5 +12,9 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "tracksol": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
