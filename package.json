@@ -1,5 +1,5 @@
 {
-  "name": "serviceCopsDemoAPI",
+  "name": "servicecopsdemoapi",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
@@ -12,16 +12,20 @@
   },
   "dependencies": {
     "bluebird": "^3.7.2",
-    "compression": "^1.0.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
     "cors": "^2.5.2",
+    "express-winston": "^4.0.2",
     "helmet": "^3.10.0",
     "loopback": "^3.19.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^6.0.0",
     "loopback-connector-mongodb": "^1.18.1",
     "loopback-context": "^3.4.0",
+    "moment-timezone": "^0.5.27",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^3.0.0"
+    "strong-error-handler": "^3.0.0",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
