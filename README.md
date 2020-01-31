@@ -3,23 +3,23 @@
 
 initialize deposit action: 
 ```json5
-        {
-          "ver": "0.1.7.k", // terminal firmware version
-          "tid": "010006d4c5", // terminal id
-          "act": 90134, // action id
-          "mnu": "0",
-          "rid": "-1",
-          "seq": "245264", // terminal internal sequence number
-          "rnd": "53de",
-          "tm": "20200131204314", // timestamp YYYYMMDDHHmmss
-          "p1": "0600133457416839", // Customer Card Number
-          "m1": "Main",
-          "lg": "EN",
-          "w": "UN-P",
-          "f": "DXXXXXXX",
-          "b": "0",
-          "tmsId": "collectionsug0015"
-        }
+{
+  "ver": "0.1.7.k", // terminal firmware version
+  "tid": "010006d4c5", // terminal id
+  "act": 90134, // action id
+  "mnu": "0",
+  "rid": "-1",
+  "seq": "245264", // terminal internal sequence number
+  "rnd": "53de",
+  "tm": "20200131204314", // timestamp YYYYMMDDHHmmss
+  "p1": "0600133457416839", // Customer Card Number
+  "m1": "Main",
+  "lg": "EN",
+  "w": "UN-P",
+  "f": "DXXXXXXX",
+  "b": "0",
+  "tmsId": "collectionsug0015"
+}
 ```
 
 response includes customer name and account # included 
