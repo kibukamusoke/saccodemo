@@ -6,41 +6,25 @@ initialize deposit action:
         {
           "ver": "0.1.7.k", // terminal firmware version
           "tid": "010006d4c5", // terminal id
-          "act": 90137, // action id
+          "act": 90134, // action id
           "mnu": "0",
-          "rid": "12345",
-          "seq": "245265", // terminal internal sequence number
-          "rnd": "a1b5",
-          "p1": "100\n",
-          "p2": {
-            "v": "0.1.7.k",
-            "t": "010006d4c5",
-            "p48": "001", // customer account Number
-            "p49": "Jane Masembe", // customer name
-            "p50": "100", // amount
-            "p51": "", // remark
-            "cardno": "0600133457416839", // staff card number
-            "cardtype": "mm4",
-            "cardcnt": "19",
-            "act": "90137",
-            "txndate": "2020-01-31 20:43:13",
-            "sid": "0",
-            "hash": "2",
-            "tid": "010006d4c5",
-            "ver": "0.1.7.k"
-          },
+          "rid": "-1",
+          "seq": "245264", // terminal internal sequence number
+          "rnd": "53de",
+          "tm": "20200131204314", // timestamp YYYYMMDDHHmmss
+          "p1": "0600133457416839", // Customer Card Number
           "m1": "Main",
           "lg": "EN",
           "w": "UN-P",
-          "f": "ULXXXXXX",
+          "f": "DXXXXXXX",
           "b": "0",
           "tmsId": "collectionsug0015"
         }
 ```
 
-response (includes printout) - customer name and account # included 
+response includes customer name and account # included 
 ```
-{B`A`}{L`[1`Transaction Successful`][2`Jane Masembe`][3`Savings Deposit`][4`Amount: 100`]`}{P`[T`{fw2}    DEPOSIT\n\n{f1}      NerpServ Solutions\n       Plot 39 Kira Road\n        Kampala, Uganda\n\nDate:        2020-01-31 15:43:23\nTID:                  010006D4C5\nStaff: Tst Staff\n{f1}    {ll1}Transaction Description{ll0}\n{f1}     Savings Deposit\n{f1}Transaction ID:            12345\nAccount Name: Jane Masembe\nAccount #: 001\nProduct Description: Deposit\nProduct Code: SACCO001\nTransaction fee:               0\n{fh2}Amount:                      100\n{f1}             Powered by Tracksol`]`}
+{D`[R`12345`][A`90137|EN|C0|DEPOSIT|TXN|<ACCT=001><CNME=Jane Masembe>(`S:mqv1|MZ|a1Ui\"47\"o\"48\"I\"v1,v2\"O\"v1,v2\"|L,101,20,20,0,40,-1,-1,24,0,Amount,0,1\\L,102,20,120,0,40,-1,-1,24,0,Remark,0,1\\I,1,20,70,280,40,-1,-1,24,0,M,0,1\\I,2,20,170,280,40,-1,-1,24,0,S,255,1|||Deposit - 001|Acc Name: Jane Masembe`)(`S:staff|KY|UT49||Receive &v1;||Please touch card|`)`]`}{B`A`}@@@
 ```
 
 deposit completion (step 2) -input amount and remarks:
